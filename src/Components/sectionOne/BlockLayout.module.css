@@ -1,0 +1,32 @@
+.block_layout {
+  width: 350px;
+  height: 402px;
+}
+.block_image {
+  width: 350px;
+  height: 242px;
+  margin-bottom: 14px;
+}
+.block_desc h3 {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+.block_desc h6 {
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+.block_desc p {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.block_desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

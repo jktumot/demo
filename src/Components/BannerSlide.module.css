@@ -1,0 +1,24 @@
+.banner_slider {
+  max-width: 1401px;
+  height: 700px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: -700px;
+  z-index: 0;
+}
+@media (width < 1400px) {
+  .banner_slider {
+    max-width: 1000px;
+    left: 0;
+    margin: 0;
+  }
+}
+@media (width < 900px) {
+  .banner_slider {
+    max-width: 889px;
+    height: 436.6px;
+    left: 0;
+    margin: 0;
+  }
+}

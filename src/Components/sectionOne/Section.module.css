@@ -1,0 +1,18 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  height: auto;
+  margin: auto;
+  background-image: url(../../Assets/frame_social/section_files/lyuboslav-vladov-bk_3.png),
+    url(../../Assets/vectors/Vector_1.png),
+    url(../../Assets/vectors/Vector_2.png),
+    url(../../Assets/vectors/Vector_3.png), url(../../Assets/light_back.png),
+    url(../../Assets/Ligt_back_2.png);
+
+  background-position-x: 0, 304px, 0px, 0px, 0, 724px;
+  background-position-y: -287px, 2436px, 2472px, 2357px, 3492px, 4823px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1400px 2894px, 1097px 2062.5px, 1400px 2014.5px,
+    1400px 1141px, 679px 2368px, 676px 2239px;
+}

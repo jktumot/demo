@@ -1,0 +1,15 @@
+.header {
+  max-width: 1401px;
+  margin: auto;
+  height: 700px;
+}
+@media (width <900px) {
+  .header {
+    height: 436.6px;
+  }
+}
+@media (width <= 414px) {
+  .header {
+    height: 233.3px;
+  }
+}

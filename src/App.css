@@ -1,0 +1,13 @@
+.App {
+  max-width: 100vw;
+  margin: auto;
+}
+@font-face {
+  font-family: Manrope;
+  src: url(./Assets/Manrope.ttf);
+  /* font-weight: 500; */
+}
+@font-face {
+  font-family: Bookerly_bold;
+  src: url(./Assets/Bookerly_Bold.ttf);
+}

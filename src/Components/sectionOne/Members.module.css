@@ -1,0 +1,59 @@
+.members {
+  max-width: 1110px;
+  height: 717px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 156px;
+}
+.head_members {
+  min-width: 635px;
+  height: 55px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 6px solid #090613;
+  margin-bottom: 64px;
+}
+.head_members h2 {
+  font-family: Bookerly_bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #090613;
+  text-transform: uppercase;
+}
+.map {
+  width: 1135px;
+  height: 598px;
+
+  margin-bottom: 156px;
+  position: relative;
+}
+.tooltip {
+  position: absolute;
+  top: 124px;
+  left: 488px;
+}
+.tooltip img {
+  width: 100%;
+}
+@media (width <= 414px) {
+  .members {
+    max-width: 414px;
+    align-items: flex-start;
+  }
+  .map img {
+    width: 378.3px;
+    height: 199.3px;
+  }
+  .tooltip {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+  }
+  .head_members {
+    max-width: 414px;
+  }
+}

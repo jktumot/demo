@@ -1,0 +1,157 @@
+.about_capital {
+  max-width: 1400px;
+  height: 1224px;
+  position: relative;
+  /* margin-top: 156px; */
+}
+.image_up {
+  position: absolute;
+  right: 145px;
+  z-index: 1;
+}
+.image_up img {
+  width: 100%;
+}
+
+.image_back {
+  position: absolute;
+  top: 296px;
+  right: 0;
+  z-index: 0;
+}
+.image_back img {
+  width: 100%;
+}
+.image_left {
+  position: absolute;
+  top: 461px;
+  left: 0;
+  z-index: 1;
+}
+.image_left img {
+  width: 100%;
+}
+@media (width <= 1366px) {
+  .image_up img {
+    width: 90%;
+  }
+  .image_left img {
+    width: 90%;
+  }
+}
+@media (width <= 1323px) {
+  .image_up img {
+    width: 80%;
+  }
+  .image_left img {
+    width: 80%;
+  }
+}
+.desc_about {
+  max-width: 100%;
+  position: absolute;
+  right: 145px;
+  top: 673px;
+}
+.head_desc {
+  max-width: 635px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-bottom: 6px solid #ffffff;
+  margin-bottom: 60px;
+}
+.head_desc h2 {
+  font-family: Bookerly_bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.description {
+  max-width: 635px;
+  height: 320px;
+}
+.description p {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1a123b;
+}
+.button button {
+  width: 635px;
+  height: 68px;
+  background-color: #1a123b;
+  color: #ffffff;
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 48px;
+  border: none;
+}
+@media (width <= 967px) {
+  .image_up img {
+    width: 70%;
+  }
+  .image_left img {
+    width: 70%;
+  }
+  .desc_about {
+    width: 600px;
+    position: absolute;
+    right: 145px;
+    top: 618px;
+    display: flex;
+    flex-direction: column;
+  }
+  .image_up {
+    position: absolute;
+    right: 145px;
+    z-index: 1;
+  }
+}
+@media (width <= 414px) {
+  .image_up img {
+    width: 70%;
+  }
+  .image_left img {
+    width: 70%;
+  }
+  .desc_about {
+    max-width: 600px;
+    position: absolute;
+    left: 10px;
+    top: 404px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .head_desc {
+    max-width: 400px;
+  }
+  .description {
+    max-width: 400px;
+  }
+  .button button {
+    width: 400px;
+    margin-top: 223px;
+  }
+  .image_back {
+    top: 342px;
+  }
+  .image_up {
+    left: 135px;
+    right: -74px;
+    z-index: 1;
+  }
+  .image_left {
+    left: 0px;
+    right: 19px;
+    z-index: 1;
+    top: 126px;
+  }
+}
